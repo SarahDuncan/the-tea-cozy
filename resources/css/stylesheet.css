@@ -3,7 +3,6 @@
 *{
 font-family: Arial, Helvetica, sans-serif;
 color:seashell;
-opacity:0.9;
 }
 
 body{
@@ -12,22 +11,27 @@ body{
 
 p{
     font-size:16px;
+    opacity:0.9;
 }
 
 h2{
     font-size:24px;
+    opacity:0.9;
 }
 
 h3{
     font-size:18.72px;
+    opacity:0.9;
 }
 
 h4{
     font-size:16px;  
+    opacity:0.9;
 }
 
 h5{
     font-size:13.28px;
+    opacity:0.9;
 }
 
 /*HEADER*/
@@ -52,7 +56,8 @@ justify-content: space-around;
 }
 
 .heading{
-    margin-right:10px;
+    margin:15px 50px;
+    font-size: 16px;
 }
 
 /*BANNER*/
@@ -80,6 +85,7 @@ justify-content: space-around;
 .tea-of-month{
     width:1000px;
     margin:0 auto;
+    text-align: center;
 }
 
 .tea-of-month-images-container{
@@ -91,7 +97,7 @@ justify-content: center;
 .tea-img{
     height:200px;
     width:300px;
-    margin:10px;
+    margin:0 10px;
 }
 
 /*LOCATIONS*/
@@ -115,12 +121,12 @@ justify-content: center;
     position: absolute;
     top:10%;
     left:10%;
+    text-align: center;
 }
 
 .locations-addresses{
     display:flex;
     justify-content: space-around;
-    text-align: center;
 }
 
 .location{
