@@ -6,6 +6,22 @@
     text-align: center;
 }
 
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:seashell;
+    background-color: black;
+    text-align:center;
+    font-size:24px;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color:seashell;
+    background-color: black;
+    text-align:center;
+    font-size:16px;  
+}
+
 .header{
     display:flex;
     justify-content: space-between;
@@ -35,6 +51,7 @@ justify-content: space-around;
     width:1200px;
     margin: 0 auto; 
     overflow: hidden;
+    margin-bottom: 50px;;
 }
 
 .banner-text{
@@ -44,3 +61,24 @@ justify-content: space-around;
     background-color:rgba(black, black, black, 1);
     justify-content: center;
 }
+
+.tea-of-month{
+    display:flexbox;
+    width:1000px;
+    margin:0 auto;
+}
+
+.tea-of-month-images-container{
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.tea-img{
+    height:200px;
+    width:300px;
+    margin:10px;
+}
+
+
+
