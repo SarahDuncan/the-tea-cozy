@@ -1,51 +1,36 @@
+/*RESETTING PREFERENCES*/
+
 *{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:22px;
-    color:seashell;
-    text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+color:seashell;
+opacity:0.9;
 }
+
 body{
     background-color: black;
 }
+
 p{
-    font-family: Arial, Helvetica, sans-serif;
     font-size:16px;
-    color:seashell;
-    background-color: black;
-    text-align: center;
 }
 
 h2{
-    font-family: Arial, Helvetica, sans-serif;
-    color:seashell;
-
-    text-align:center;
     font-size:24px;
 }
 
 h3{
-    font-family: Arial, Helvetica, sans-serif;
-    color:seashell;
-    background-color: black;
-    text-align:center;
     font-size:18.72px;
 }
 
 h4{
-    font-family: Arial, Helvetica, sans-serif;
-    color:seashell;
-    background-color: black;
-    text-align:center;
     font-size:16px;  
 }
 
 h5{
-    font-family: Arial, Helvetica, sans-serif;
-    color:seashell;
-    background-color: black;
-    text-align: center;
     font-size:13.28px;
 }
+
+/*HEADER*/
 
 .header{
     display:flex;
@@ -70,6 +55,8 @@ justify-content: space-around;
     margin-right:10px;
 }
 
+/*BANNER*/
+
 .banner{
     position:relative;
     height: 700px;
@@ -77,6 +64,7 @@ justify-content: space-around;
     margin: 0 auto; 
     overflow: hidden;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .banner-text{
@@ -86,6 +74,8 @@ justify-content: space-around;
     background-color:black;
     justify-content: center;
 }
+
+/*TEA OF THE MONTH*/
 
 .tea-of-month{
     width:1000px;
@@ -104,6 +94,8 @@ justify-content: center;
     margin:10px;
 }
 
+/*LOCATIONS*/
+
 .locations-section{
     position:relative;
     height: 500px;
@@ -120,10 +112,9 @@ justify-content: center;
 
 .locations-text{
     display: flexbox;
-position: absolute;
-top:10%;
-left:10%;
-
+    position: absolute;
+    top:10%;
+    left:10%;
 }
 
 .locations-addresses{
@@ -131,7 +122,6 @@ left:10%;
     justify-content: space-around;
     text-align: center;
 }
-
 
 .location{
     background-color: black;
@@ -141,8 +131,17 @@ height:auto;
 line-height: 200%;
 }
 
+/*CONTACT SECTION*/
+
 .contact-section{
     height:200px;
-    line-height: 150%;
+    line-height: 250%;
     margin:0px 20px;
+    text-align: center;
+}
+
+/*FOOTER/COPYRIGHT SECTION*/
+
+.footer{
+    text-align: left;
 }
