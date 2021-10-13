@@ -3,7 +3,6 @@
     font-size:22px;
     color:seashell;
     background-color: black;
-    opacity: 0.9;
     text-align: center;
 }
 
@@ -28,4 +27,20 @@ justify-content: space-around;
 
 .heading{
     margin-right:10px;
+}
+
+.banner{
+    position:relative;
+    height: 700px;
+    width:1200px;
+    margin: 0 auto; 
+    overflow: hidden;
+}
+
+.banner-text{
+    position: absolute;
+    top:50%;
+    width:100%;
+    background-color:rgba(black, black, black, 1);
+    justify-content: center;
 }
