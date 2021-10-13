@@ -6,4 +6,4 @@ Tea Cozy incorporated:
  -Positioning of elements with block elements and containers & the flexbox model containers
  -Git &
  -Github
- 
+ # theteacozy
