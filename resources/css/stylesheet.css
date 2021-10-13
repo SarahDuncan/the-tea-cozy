@@ -2,6 +2,15 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size:22px;
     color:seashell;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    color:seashell;
     background-color: black;
     text-align: center;
 }
@@ -9,9 +18,17 @@
 h2{
     font-family: Arial, Helvetica, sans-serif;
     color:seashell;
-    background-color: black;
+
     text-align:center;
     font-size:24px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color:seashell;
+    background-color: black;
+    text-align:center;
+    font-size:18.72px;
 }
 
 h4{
@@ -51,19 +68,18 @@ justify-content: space-around;
     width:1200px;
     margin: 0 auto; 
     overflow: hidden;
-    margin-bottom: 50px;;
+    margin-bottom: 50px;
 }
 
 .banner-text{
     position: absolute;
     top:50%;
     width:100%;
-    background-color:rgba(black, black, black, 1);
+    background-color:black;
     justify-content: center;
 }
 
 .tea-of-month{
-    display:flexbox;
     width:1000px;
     margin:0 auto;
 }
@@ -80,5 +96,39 @@ justify-content: center;
     margin:10px;
 }
 
+.locations-section{
+    position:relative;
+    height: 500px;
+    width:1200px;
+    margin: 0 auto; 
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.locations-img{
+    width:1200px;
+    height:700px;
+}
+
+.locations-text{
+    display: flexbox;
+position: absolute;
+top:10%;
+left:10%;
+
+}
+
+.locations-addresses{
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+}
 
 
+.location{
+    background-color: black;
+margin:20px;
+width:300px;
+height:auto;
+line-height: 200%;
+}
