@@ -9,19 +9,23 @@
 
 .header{
     display:flex;
-    align-items: space-around;
-    position:fixed;
+    justify-content: space-between;
     text-decoration: underline;
     border-bottom: 1px solid seashell;
-    padding:10px;
+    height:69px;
 }
 
 .logo{
     height:50px;
     width:auto;
+    margin:10px;
 }
 
 .header-text{
     display:flex;
+justify-content: space-around;
+}
 
+.heading{
+    margin-right:10px;
 }
