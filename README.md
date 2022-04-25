@@ -5,5 +5,6 @@ Tea Cozy incorporated:
 -CSS3:
  -Positioning of elements with block elements and containers & the flexbox model containers
  -Git &
- -Github
+ -Github.
+ The webapp can be found here https://sarahduncan.github.io/The-Tea-Cozy/
  
