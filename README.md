@@ -4,3 +4,5 @@ The Tea Cozy project incorporated HTML5, CSS3 (Positioning of elements with bloc
  The webapp can be found [here](https://sarahduncan.github.io/the-tea-cozy/).
 
  test
+
+ test 2
